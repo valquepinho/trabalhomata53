@@ -1,0 +1,161 @@
+{
+  "BFS": {
+    "complexidade_teorica": "O(n+m)",
+    "constante_c": 1.8080419834330624e-08,
+    "R2": 0.7170194196976445,
+    "expoente_empirico_em_n": 1.2242587359728991,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "DFS": {
+    "complexidade_teorica": "O(n+m)",
+    "constante_c": 6.063091851507896e-08,
+    "R2": 0.6905522017379023,
+    "expoente_empirico_em_n": 1.242834483961673,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "Eulerianidade": {
+    "complexidade_teorica": "O(n+m)",
+    "constante_c": 1.2690379134952284e-07,
+    "R2": 0.9750360727583015,
+    "expoente_empirico_em_n": 0.9914088735199038,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "Tarjan": {
+    "complexidade_teorica": "O(n+m)",
+    "constante_c": 2.169137260277066e-07,
+    "R2": 0.9331312558405414,
+    "expoente_empirico_em_n": 0.9728831484561731,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "Dijkstra": {
+    "complexidade_teorica": "O((n+m) log n)",
+    "constante_c": 4.407761797072146e-09,
+    "R2": 0.7793034097080604,
+    "expoente_empirico_em_n": 1.3685960105252275,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "Bellman-Ford": {
+    "complexidade_teorica": "O(n·m)",
+    "constante_c": 4.5647715167721814e-11,
+    "R2": -0.21909109562721962,
+    "expoente_empirico_em_n": 0.8064228203724106,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "Kruskal": {
+    "complexidade_teorica": "O(m log m)",
+    "constante_c": 2.9274445478509936e-08,
+    "R2": 0.9889094003183067,
+    "expoente_empirico_em_n": 0.8757649120242137,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "Prim": {
+    "complexidade_teorica": "O(m log n)",
+    "constante_c": 7.366589952584955e-08,
+    "R2": 0.9421745730998453,
+    "expoente_empirico_em_n": 1.0386811729008565,
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  },
+  "Floyd-Warshall": {
+    "complexidade_teorica": "O(n^3)",
+    "constante_c": 1.0203849601239509e-09,
+    "R2": 0.9982006046185313,
+    "expoente_empirico_em_n": 3.0987456583284536,
+    "tamanhos": [
+      100,
+      200,
+      300,
+      400,
+      600,
+      800,
+      1000,
+      1400
+    ]
+  },
+  "Bellman-Ford (m·rodadas)": {
+    "complexidade_teorica": "O(m · rodadas), rodadas ≤ n-1",
+    "constante_c": 6.088695853229098e-08,
+    "R2": 0.9807695094865183,
+    "rodadas_medias": [
+      4.0,
+      5.612903225806452,
+      6.387096774193548,
+      5.387096774193548,
+      3.6774193548387095,
+      4.548387096774194,
+      2.870967741935484
+    ],
+    "tamanhos": [
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000,
+      6301
+    ]
+  }
+}

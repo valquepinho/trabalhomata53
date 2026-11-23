@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrrllr}
+\hline
+\textbf{Algoritmo} & \textbf{Teórica} & \textbf{n} & \textbf{Rep.} & \textbf{Média (ms)} & \textbf{Desvio (ms)} & \textbf{IC 95\% (ms)} & \textbf{Distribuição} & \textbf{Exp. emp.} \\
+\hline
+BFS & O(n+m) & 6301 & 30 & 0.359 & 0.573 & [0.154; 0.564] & Normal (z) & 1.22 \\
+DFS & O(n+m) & 6301 & 30 & 1.186 & 1.823 & [0.533; 1.838] & Normal (z) & 1.24 \\
+Eulerianidade & O(n+m) & 6301 & 30 & 3.618 & 0.143 & [3.566; 3.669] & Normal (z) & 0.99 \\
+Tarjan & O(n+m) & 6301 & 30 & 5.695 & 0.710 & [5.440; 5.949] & Normal (z) & 0.97 \\
+Dijkstra & O((n+m) log n) & 6301 & 30 & 1.170 & 1.820 & [0.519; 1.822] & Normal (z) & 1.37 \\
+Bellman-Ford & O(n$\cdot$m) & 6301 & 30 & 3.897 & 3.698 & [2.574; 5.221] & Normal (z) & 0.81 \\
+Kruskal & O(m log m) & 6301 & 30 & 8.553 & 0.349 & [8.428; 8.678] & Normal (z) & 0.88 \\
+Prim & O(m log n) & 6301 & 30 & 22.659 & 3.538 & [21.393; 23.925] & Normal (z) & 1.04 \\
+Floyd-Warshall & O(n\^{}3) & 1400 & 5 & 2771.360 & 152.607 & [2581.874; 2960.846] & t-Student (gl=4) & 3.10 \\
+\hline
+\end{tabular}}
+\caption{Tempo real por algoritmo (maior tamanho medido; Floyd-Warshall: n=1400).}
+\label{tab:tempos}
+\end{table}

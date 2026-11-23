@@ -1,0 +1,18 @@
+Medida,Computada?,Valor,Observação
+Número de vértices,Sim,6.301,Após remoção de laços/duplicatas
+Número de arestas,Sim,20.777 dirigidas; 20.777 não-dirigidas,0 pares recíprocos (u→v e v→u)
+Grau mínimo/máximo/médio (entrada),Sim,min 0 / máx 91 / média 3.297,Grau de entrada
+Grau mínimo/máximo/médio (saída),Sim,min 0 / máx 48 / média 3.297,Grau de saída
+Grau mínimo/máximo/médio (não-dirigido),Sim,min 1 / máx 97 / média 6.595,Vizinhos distintos
+Distribuição de graus,Sim,ver figura e graus.csv,Histograma e CCDF log-log
+Densidade,Sim,dirigida 0.0005234; não-dirigida 0.001047,m/(n(n-1)) e 2m/(n(n-1))
+Nº de componentes conexas,Sim,2 fracas; 4.234 fortes,Fracas: BFS na versão não-dirigida; fortes: Tarjan
+Tamanho de cada componente,Sim,"fracas: [6299, 2]; fortes: maior 2068, 4.233 unitárias",Lista completa em componentes.csv
+Diâmetro,Sim,dirigido (alcançáveis) 20; não-dir. (maior WCC) 9; maior SCC 19,Grafo dirigido não é fortemente conexo: distância infinita entre muitos pares
+Raio,Sim,não-dir. (maior WCC) 6; maior SCC 12,Não definido no grafo dirigido completo (excentricidade infinita); calculado nos dois subgrafos conexos
+Comprimento médio dos caminhos,Sim,dirigido 6.6322; não-dir. 4.6430; SCC 6.4339,Média sobre pares alcançáveis (s≠t)
+Diâmetro efetivo (percentil 90),Sim,dirigido 8.493; não-dir. 5.486,"Medida extra, comparável ao valor do SNAP"
+Coeficiente de clustering médio,Sim,0.01087 (todos os vértices); 0.01503 (grau ≥ 2); transitividade 0.02066,Versão não-dirigida; vértices com grau < 2 têm C = 0
+Número de triângulos,Sim,2.383,Viável (grafo esparso); versão não-dirigida
+Visualização do grafo,Sim,visualizacao.png,Versão reduzida: subgrafo de 300 vértices por BFS a partir do hub
+Eulerianidade,Sim,circuito (dir.): não; 6.133 vértices desbalanceados,Parte II

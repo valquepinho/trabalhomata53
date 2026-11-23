@@ -1,0 +1,40 @@
+[    0.0s] Lendo e tratando o grafo...
+[    0.1s]   n=6301  m=20777 (dirigidas)  m_und=20777  info={'linhas_de_aresta_lidas': 20777, 'lacos_removidos': 0, 'arestas_duplicadas_removidas': 0, 'vertices': 6301, 'arestas_dirigidas': 20777, 'arestas_nao_dirigidas': 20777, 'pares_reciprocos': 0}
+[    0.1s] Parte I: graus, densidade, componentes...
+[    0.1s]   componentes fracas=2 fortes=4234
+[    0.1s] Parte I: triângulos e clustering...
+[    0.1s]   triângulos=2383  C=0.01087
+[    0.1s] Parte I: distâncias (BFS a partir de cada vértice; pode levar alguns minutos)...
+[   20.6s]   dirigido_alcancaveis: diam=20 raio=None L=6.6322 ef90=8.49
+[   20.6s]   nao_dirigido_maior_WCC: diam=9 raio=6 L=4.6430 ef90=5.49
+[   20.6s]   dirigido_maior_SCC: diam=19 raio=12 L=6.4339 ef90=8.16
+[   20.6s] Parte III: lei de potência...
+[   20.6s]   nao_dirigido: alpha=4.741 xmin=11 KS=0.067
+[   20.6s]   entrada: alpha=2.845 xmin=4 KS=0.034
+[   20.6s]   saida: alpha=12.000 xmin=10 KS=0.319
+[   20.6s] Parte III: small-world (modelos nulos)...
+[   43.2s]   C=0.0109 L=4.643 | ER: C=0.0012 L=4.848 sigma=9.80 | preserva graus sigma=2.17
+[   43.2s] Parte III: robustez (aleatório x direcionado)...
+[   60.4s] Parte III (extra): modelos clássicos ER/BA/WS...
+[   83.9s]   real: C=0.0109 L=4.643 kmax=97
+[   83.9s]   ER: C=0.0011 L=4.849 kmax=18
+[   83.9s]   BA: C=0.0087 L=3.995 kmax=269
+[   83.9s]   WS: C=0.4461 L=8.184 kmax=10
+[   84.6s] Figuras da Parte I...
+[   85.7s] Parte II: benchmark (tempo real com IC)...
+[   85.8s]   [benchmark] n=500 m=3460
+[   85.9s]   [benchmark] n=1000 m=5076
+[   86.2s]   [benchmark] n=2000 m=8807
+[   86.8s]   [benchmark] n=3000 m=12537
+[   87.7s]   [benchmark] n=4000 m=16170
+[   88.9s]   [benchmark] n=5000 m=18787
+[   90.3s]   [benchmark] n=6301 m=20777
+[   91.7s]   [benchmark] Floyd-Warshall n=100 (10 repetições)
+[   91.7s]   [benchmark] Floyd-Warshall n=200 (10 repetições)
+[   91.8s]   [benchmark] Floyd-Warshall n=300 (10 repetições)
+[   92.0s]   [benchmark] Floyd-Warshall n=400 (10 repetições)
+[   92.6s]   [benchmark] Floyd-Warshall n=600 (5 repetições)
+[   93.7s]   [benchmark] Floyd-Warshall n=800 (5 repetições)
+[   96.7s]   [benchmark] Floyd-Warshall n=1000 (5 repetições)
+[  103.2s]   [benchmark] Floyd-Warshall n=1400 (5 repetições)
+[  121.4s] Concluído. Resultados em: /home/claude/trabalho-grafos/results
